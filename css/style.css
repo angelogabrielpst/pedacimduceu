@@ -935,6 +935,21 @@ button,
     line-height: 1.7;
 }
 
+.service-card > .product-price {
+    min-height: 0;
+    margin: -4px 0 16px;
+    color: var(--pink);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.product-price span {
+    color: var(--gray);
+    font-size: 13px;
+    font-weight: 700;
+}
+
 .service-link {
     padding-top: 14px;
     border-top-color: var(--line);
