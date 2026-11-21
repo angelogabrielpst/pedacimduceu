@@ -171,5 +171,44 @@
             </div>
         </div>
     </footer>
+
+    <aside class="mascot-widget" aria-label="Atendimento da Pedacim do Céu">
+        <div class="mascot-panel" id="mascot-panel" role="dialog" aria-labelledby="mascot-title" hidden>
+            <div class="mascot-panel-header">
+                <span class="mascot-avatar" aria-hidden="true">☁</span>
+                <div>
+                    <h2 id="mascot-title">Nuvem, sua ajudante</h2>
+                    <p>Atendimento docinho</p>
+                </div>
+                <button class="mascot-close" type="button" aria-label="Fechar atendimento">×</button>
+            </div>
+            <div class="mascot-conversation">
+                <p class="mascot-greeting">Oi! Sou a Nuvem ☁️ Posso ajudar você a escolher seus doces.</p>
+                <p class="mascot-reply" id="mascot-reply" aria-live="polite">Escolha uma opção para saber mais:</p>
+                <div class="mascot-questions" aria-label="Dúvidas frequentes">
+                    <button type="button" data-answer="flavors">Quais são os sabores?</button>
+                    <button type="button" data-answer="prices">Quanto custa?</button>
+                    <button type="button" data-answer="order">Como faço uma encomenda?</button>
+                </div>
+            </div>
+            <a class="mascot-order" href="https://wa.me/553184044496" target="_blank" rel="noopener noreferrer">
+                Pedir pelo WhatsApp <span aria-hidden="true">↗</span>
+            </a>
+        </div>
+        <span class="mascot-hint" aria-hidden="true">Oi! Posso ajudar?</span>
+        <button class="mascot-toggle" type="button" aria-label="Conversar com a Nuvem" aria-expanded="false" aria-controls="mascot-panel">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+                <path class="mascot-cloud" d="M17 43c-5-3-7-10-4-15 2-4 6-6 11-6 2-10 11-17 22-16 10 1 17 8 18 18 7 1 12 6 12 13 0 8-7 14-15 14H27c-4 0-8-3-10-8z"/>
+                <path class="mascot-truffle" d="M20 43c2-13 11-22 23-22s21 9 23 22c-4 9-12 14-23 14S24 52 20 43z"/>
+                <path class="mascot-wrapper" d="m22 48 9 4 2 14 10-7 10 7 2-14 9-4c-5 7-12 11-21 11s-16-4-21-11z"/>
+                <circle cx="35" cy="42" r="2.2" fill="#482236"/>
+                <circle cx="51" cy="42" r="2.2" fill="#482236"/>
+                <path d="M38 49c3 3 7 3 10 0" fill="none" stroke="#482236" stroke-linecap="round" stroke-width="2"/>
+                <circle cx="29" cy="48" r="3" fill="#ef8ba8" opacity=".8"/>
+                <circle cx="57" cy="48" r="3" fill="#ef8ba8" opacity=".8"/>
+                <path d="m12 13 2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5zm53-7 1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5L65 6z" fill="#f2d89e"/>
+            </svg>
+        </button>
+    </aside>
 </body>
 </html>
